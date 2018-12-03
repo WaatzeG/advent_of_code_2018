@@ -1,8 +1,5 @@
-(ns aoc.1
+(ns aoc.Day_1_puzzle_2
   (:require [clojure.java.io :as io]))
-
-(with-open [rdr (clojure.java.io/reader (io/resource "1_frequency_shifts.txt"))]
-  (println "Frequency:" (reduce + (map #(Integer/parseInt %) (line-seq rdr)))))
 
 (defn duplicate_frequency_filter
   ([freq_seq] (duplicate_frequency_filter freq_seq 0 #{}))

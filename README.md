@@ -1,1 +1,1 @@
-# Advent of Code 2018 solutions in Clojure
+# Advent of Code solutions in Clojure
